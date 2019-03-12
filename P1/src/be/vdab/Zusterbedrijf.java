@@ -19,6 +19,7 @@ public class Zusterbedrijf {
             while ((sLine = bufferedReader.readLine()) != null) {
                 System.out.println(String.format("data: %s", sLine));
             }
+            bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
